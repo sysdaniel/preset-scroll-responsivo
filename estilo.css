@@ -1,0 +1,33 @@
+/*reset*/
+*{
+	margin: 0;
+	padding: 0;	
+ }
+
+/*LOGO - ajustando o logo*/
+.logo{
+	font-size: 200px;
+}
+
+/*Adiciona media queries para centralizar a "coluna do logo" em telas menores que 768px*/
+@media screen and (max-width: 768px){
+	.col-sm-4{
+	text-align: center;
+	margin: 25px;
+	}
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+	background-color: #006400;
+	color: #ffffff;
+	padding: 100px 25px;
+}
+
+.bg-gray{
+	background-color: #f6f6f6;
+}
+
+.container-fluid{
+	padding: 60px 50px;
+}
