@@ -18,16 +18,31 @@
 }
 
 /*JUMBOTRON*/
-.jumbotron {
+.jumbotron{
 	background-color: #006400;
 	color: #ffffff;
 	padding: 100px 25px;
 }
 
+/*COR DE FUNDO NOSSOS VALORES*/
 .bg-gray{
 	background-color: #f6f6f6;
 }
 
+/*ADICIONA UMA COR VERDE A TODOS OS ICONES E CONFIGURA O FONT-SIZE*/
+.logo-small{
+	color: #006400;
+	font-size: 50px;
+}
+
+.logo{
+	color: #006400;
+	font-size: 200px;
+}
+
+
+/*CONTAINER SESSÃO DE SERVIÇOS*/
 .container-fluid{
 	padding: 60px 50px;
 }
+
