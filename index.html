@@ -15,7 +15,7 @@
 <body>
 	<div class="jumbotron text-center">
 	  <h1>Nome da empresa</h1>
-	  <p>Especialidade em...</p>
+	  <p>Nulla quis lorem ut libero malesuada feugiat....</p>
 	  <form class="form-inline">
 	    <input type="email" class="form-control" size="50" placeholder="Seu e-mail" required>
 	    <button type="button" class="btn btn-success">Inscreva-se</button>
@@ -28,8 +28,8 @@
 		<div class="row">
 			<div class="col-sm-8">
 				<h2>Sobre nós</h2>
-				<h4>Bla bla bla...</h4>
-				<p>Bla bla bla bla bla bla...<p>
+				<h4>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</h4>
+				<p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.<p>
 				<button class="btn btn-default btn-lg">Leia mais...</button>
 			</div>
 			<div class="col-sm-4">
@@ -49,8 +49,8 @@
 
 			<div class="col-sm-8">
 				<h2>Nossos valores</h2>
-				<h4><strong>MISSÃO:</strong> Nossa missão é...</h4>
-				<p><strong>VISÃO:</strong> Nossa visão é...</p>
+				<h4><strong>MISSÃO:</strong>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</h4>
+				<p><strong>VISÃO:</strong> Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
 			</div>
 
 		</div>
@@ -154,8 +154,46 @@
 		</div>
 	</div>
 
-	<!--CARROSSEL-->
-	<h2>O que nossos clientes estão falando</h2>
+	<!--ADICIONA UM CARROSSEL-->
+	
+	
+	<h2>Carrossel</h2>
+
+	<div id="meuCarrossel" class="carousel slide text-center" data-ride="carousel">
+
+		<!--INDICATORS-->
+		<ol class="carousel-indicators">
+			<li data-target="#meuCarrossel" data-slide-to="0" class="active"></li>
+			<li data-target="#meuCarrossel" data-slide-to="1"></li>
+			<li data-target="#meuCarrossel" data-slide-to="2"></li>
+		</ol>
+
+		<div class="carousel-inner" role="listbox">
+	    	<div class="item active">
+	      		<h4>Item 1</h4>
+	    	</div>
+
+	    	<div class="item">
+	      		<h4>Item 2</h4>
+	    	</div>
+
+	    	<div class="item">
+	      		<h4>Item 3</h4>
+	    	</div>
+	  	</div>
+
+		<a class="left carousel-control" href="#meuCarrossel" role="button" data-slide="prev">
+    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    		<span class="sr-only">Anterior</span>
+  		</a>
+  		
+  		<a class="right carousel-control" href="#meuCarrossel" role="button" data-slide="next">
+    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    		<span class="sr-only">Anterior</span>
+  		</a>
+
+	</div>
+
 </body>
 
 </html>
