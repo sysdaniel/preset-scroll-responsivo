@@ -58,3 +58,104 @@
 	height: 100%;
 	margin-bottom: 10px;
 }
+
+/*CAROUSEL*/
+
+.carousel-control.right, .carousel-control.left{
+	background-color: none;
+	color: #006400;
+}
+
+.carousel-indicators{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	z-index: 15;
+	width: 60%;
+	margin-left: -30%;
+	padding-left: 0;
+	text-align: center;
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 1px;
+	text-indent: -999px;
+	border: 1px solid @carousel-indicators-border-color;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.carousel-indicators li{
+	background-color: #006400;
+}
+
+.carousel-indicators li.active{
+	background-color: #006400;
+}
+
+.item h4{
+	font-size: 19px;
+	line-height: 1.375em;
+	font-style: italic;
+	margin: 70px 0;
+}
+
+.item span{
+	font-style: normal;
+}
+
+.carousel-inner{
+	position: relative;;
+	width: 100%;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+/*PAINEL DE PREÇOS*/
+
+.panel{
+	border: 1px solid #006400;
+	border-radius: 0;
+	transition: box-shadow 0.5s;
+}
+
+.panel:hover{
+	box-shadow: 5px 0px 40px rgba(0,0,0, 1.0);
+}
+
+.panel-footer .btn:hover{
+	border: 1px solid #006400;
+	background-color: #fff !important;
+	color: #006400;
+}
+
+.panel-heading{
+	color: #fff !important;
+	background-color: #006400 !important;
+	padding: 25px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.panel-footer{
+	background-color: #fff;
+}
+
+.panel-footer h3{
+	color: #aaa;
+	font-size: 14px;
+}
+
+.panel-footer .btn{
+	margin: 15px 0;
+	background-color: #006400;
+	color: #fff;
+}

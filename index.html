@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
 
   	<link rel="stylesheet" type="text/css" href="estilo.css">
 
@@ -72,21 +73,21 @@
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-off logo-small"></span>
 				<h4>PODER</h4>
-				<p>Bla bla bla bla...</p>
+				<p>Proin eget tortor risus....</p>
 			</div>
 
 			<!--COLUNA 2-->
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-heart logo-small"></span>
 				<h4>AMOR</h4>
-				<p>Bla bla bla...</p>
+				<p>Proin eget tortor risus....</p>
 			</div>
 
 			<!--COLUNA 3-->
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-lock logo-small"></span>
 				<h4>TRABALHO DURO</h4>
-				<p>Bla bla bla...</p>
+				<p>Proin eget tortor risus....</p>
 			</div>
 
 		</div>
@@ -100,21 +101,21 @@
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-leaf logo-small"></span>
 				<h4>MEIO AMBIENTE</h4>
-				<p>Bla bla bla bla...</p>
+				<p>Proin eget tortor risus....</p>
 			</div>
 
 			<!--COLUNA 2-->
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-certificate logo-small"></span>
 				<h4>CERTEZA</h4>
-				<p>Bla bla bla...</p>
+				<p>Proin eget tortor risus....</p>
 			</div>
 
 			<!--COLUNA 3-->
 			<div class="col-sm-4">
 				<span class="glyphicon glyphicon-wrench logo-small"></span>
 				<h4>COMPROMISSO</h4>
-				<p>Bla bla bla...</p>
+				<p>Proin eget tortor risus....</p>
 			</div>
 
 		</div>
@@ -123,76 +124,196 @@
 
 	<!--CONTAINER PORTIFOLIO-->
 
-	<div class="container-fluid text-center bg-gray">
-		<h2>Portifólio</h2>
-		<h4>O que temos construído</h4>
+	<div class="container-fluid text-center bg-gray"><!--inicio da div portifólio-->
+			<h2>Portifólio</h2>
+			<h4>O que construímos</h4>
 
-		<div class="row text-center">
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/paris.jpg" alt="Paris">
+						<p><strong>Paris</strong></p>
+						<p>Isso mesmo, construimos paris</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/novayork.jpg" alt="Nova York">
+						<p><strong>Nova York</strong></p>
+						<p>Aham, Nova York também</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="thumbnail">
+						<img src="img/salvador.jpg" alt="Salvador">
+						<p><strong>Salvador</strong></p>
+						<p>Claro, sou baiano</p>
+					</div>
+				</div>
+			</div>
+		<!--</div>-->
+
+		<!--ADICIONA UM CARROSSEL-->
+		
+		
+		<h2 class="text-center">O que andam falando</h2>
+
+		<div id="meuCarrossel" class="carousel slide text-center" data-ride="carousel">
+
+			<!--INDICATORS-->
+			<ol class="carousel-indicators">
+				<li data-target="#meuCarrossel" data-slide-to="0" class="active"></li>
+				<li data-target="#meuCarrossel" data-slide-to="1"></li>
+				<li data-target="#meuCarrossel" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner" role="listbox">
+			    	<div class="item active">
+			      		<h4>Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, <br> <span style="font-style:normal">convallis at tellus.</span></h4>
+			    	</div>
+
+			    	<div class="item">
+			      		<h4>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. <br><span style="font-style:normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></h4>
+			    	</div>
+
+			    	<div class="item">
+			      		<h4>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. <br><span style="font-style:normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></h4>
+			    	</div>
+			  </div>
+
+				<a class="left carousel-control" href="#meuCarrossel" role="button" data-slide="prev">
+		    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    		<span class="sr-only">Próximo</span>
+		  		</a>
+		  		
+		  		<a class="right carousel-control" href="#meuCarrossel" role="button" data-slide="next">
+		    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    		<span class="sr-only">Anterior</span>
+	  			</a>
+		</div>
+	</div><!--final da div portifólio-->
+
+	<!--CONTAINER PREÇOS-->
+
+	<div class="container-fluid">
+		<div class="text-center">
+			<h2>Preços</h2>
+			<h4>Selecione um plano</h4>
+		</div>
+
+		<div class="row">
+
 			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="img/paris.jpg" alt="Paris">
-					<p><strong>Paris</strong></p>
-					<p>Isso mesmo, construimos paris</p>
+				
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Básico</h1>	
+					</div>
+
+					<div class="panel-body">
+						<p><strong>20</strong> Lorem</p>
+						<p><strong>15</strong> Ipsum</p>
+						<p><strong>5</strong> Dolor</p>
+						<p><strong>2</strong> Sit</p>
+						<p><strong>Infinito</strong> Amet</p>
+					</div>
+
+					<div class="panel-footer">
+						<h3>R$20 Temers</h3>
+						<H4>Mensal</H4>
+						<button class="btn btn-lg">Assinar plano</button>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Pró</h1>
+					</div>
+
+					<div class="panel-body">
+						<p><strong>20</strong> Lorem</p>
+						<p><strong>15</strong> Ipsum</p>
+						<p><strong>5</strong> Dolor</p>
+						<p><strong>2</strong> Sit</p>
+						<p><strong>Infinito</strong> Amet</p>
+					</div>
+
+					<div class="panel-footer">
+						<h3>R$30 Temers</h3>
+						<H4>Mensal</H4>
+						<button class="btn btn-lg">Assinar plano</button>
+					</div>
 				</div>
 			</div>
 
 			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="img/novayork.jpg" alt="Nova York">
-					<p><strong>Nova York</strong></p>
-					<p>Aham, Nova York também</p>
+				<div class="panel panel-default text-center">
+					<div class="panel-heading">
+						<h1>Premium</h1>
+					</div>
+
+					<div class="panel-body">
+						<p><strong>20</strong> Lorem</p>
+						<p><strong>15</strong> Ipsum</p>
+						<p><strong>5</strong> Dolor</p>
+						<p><strong>2</strong> Sit</p>
+						<p><strong>Infinito</strong> Amet</p>
+					</div>
+
+					<div class="panel-footer">
+						<h3>R$40 Temers</h3>
+						<H4>Mensal</H4>
+						<button class="btn btn-lg">Assinar plano</button>
+					</div>
 				</div>
 			</div>
 
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="img/salvador.jpg" alt="Salvador">
-					<p><strong>Salvador</strong></p>
-					<p>Claro, sou baiano</p>
+		</div>
+
+	</div>
+
+	<!--CONTAINER CONTATO-->
+
+	<div class="container-fluid bg-gray">
+		<h2 class="text-center">Fale conosco</h2>
+		<div class="row">
+			<div class="col-sm-5">
+				<p>Retorno em até 24h.</p>
+				<p><span class="glyphicon glyphicon-map-marker"></span> Bahia, BR</p>
+				<p><span class="glyphicon glyphicon-phone"></span> +55 123456789</p>
+				<p><span class="glyphicon glyphicon-envelope"></span> email@paracontato.com.br</p>
+			</div>
+
+			<div class="col-sm-7">
+
+				<div class="row">
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="nome" name="nome" placeholder="Nome" type="text" required>						
+					</div>
+
+					<div class="col-sm-6 form-group">
+						<input class="form-control" id="email" name="email" placeholder="E-mail" type="email" required>
+					</div>
+				</div>
+
+				<textarea class="form-control" id="comments" name="comments" placeholer="Comentários" rows="5"></textarea></br>
+				<div class="row">
+					<div class="col-sm-12 form-group">
+						<button class="btn btn-default pull-right" type="submit">Enviar</button>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!--ADICIONA UM CARROSSEL-->
-	
-	
-	<h2>Carrossel</h2>
+	<!--GOOGLE MAPS-->
 
-	<div id="meuCarrossel" class="carousel slide text-center" data-ride="carousel">
-
-		<!--INDICATORS-->
-		<ol class="carousel-indicators">
-			<li data-target="#meuCarrossel" data-slide-to="0" class="active"></li>
-			<li data-target="#meuCarrossel" data-slide-to="1"></li>
-			<li data-target="#meuCarrossel" data-slide-to="2"></li>
-		</ol>
-
-		<div class="carousel-inner" role="listbox">
-	    	<div class="item active">
-	      		<h4>Item 1</h4>
-	    	</div>
-
-	    	<div class="item">
-	      		<h4>Item 2</h4>
-	    	</div>
-
-	    	<div class="item">
-	      		<h4>Item 3</h4>
-	    	</div>
-	  	</div>
-
-		<a class="left carousel-control" href="#meuCarrossel" role="button" data-slide="prev">
-    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    		<span class="sr-only">Anterior</span>
-  		</a>
-  		
-  		<a class="right carousel-control" href="#meuCarrossel" role="button" data-slide="next">
-    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    		<span class="sr-only">Anterior</span>
-  		</a>
-
-	</div>
+	<div id="googleMap" style="height:400px;width:100%"></div>
 
 </body>
 
