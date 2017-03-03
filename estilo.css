@@ -159,3 +159,10 @@ li{
 	background-color: #006400;
 	color: #fff;
 }
+
+/*GOOGLE MAPS API*/
+
+#googleMap{
+	height: 400px;
+	width: 100%;
+}
