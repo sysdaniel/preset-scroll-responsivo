@@ -5,11 +5,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale-1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="//cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
   	
-
   	<link rel="stylesheet" href="css/style.css" media="screen">
+  	<script type="text/javascript" src=""></script>
 
 </head>
 
@@ -18,7 +19,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top" id="myPage">
   		<div class="container">
     		<div class="navbar-header">
       			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -371,12 +372,17 @@
     <!--FOOTER-->
 
     <footer class="container-fluid text-center">
-    	<a href="#myPage" title="Topo">
-    		<span class="glyphicon glyphicon-chevron-up"></span>
-    	</a>
-    	<p>Desenvolvido por <a href="http://www.simetriatecnologia.com.br" title="Simetria Tecnologia">Simetria Tecnologia</a></p>
+    	<a href="#myPage" title="Topo"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    	<p>&copy; Simetria Tecnologia</p>
     </footer>
 
+
+    <!--CDN DOS PLUGINS JQUERY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+ 	
 </body>
 
 </html>
